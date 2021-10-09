@@ -40,17 +40,18 @@
                         if (dt.length > 0) {
                             $('.products-content').html("");
                             dt.forEach(element => {
+                                // product-container border rounded
                                 const divitem = document.createElement('div');
                                 $(divitem).attr({
-                                    class: "col-6 bg-info- px-0 col-lg-2"
+                                    class: "bg-info- px-0 col-lg-12 col-12"
                                 }).html(
                                     `
                                 <div class="recommendation-column recommendation-column-first" style="cursor: pointer">
-                                    <div class="product-container border rounded">
-                                        <div class="product-image-container" style="padding-bottom: 100%;">
+                                    <div class="row">
+                                        <div class="product-image-container" col-3 style="padding-bottom: 100%;">
                                             <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt="dav.me">
                                         </div>
-                                        <div class="product-dscr-container">
+                                        <div class="product-dscr-container col-9">
                                             <div class="product-title">${element.nom}</div>
                                             <div class="product-price">US $${element.prix}</div>
                                             <div class="oriArea">US $${element.prix - (element.prix * .20)}
