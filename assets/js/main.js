@@ -48,7 +48,7 @@
                                 <div class="recommendation-column recommendation-column-first" style="cursor: pointer">
                                     <div class="product-container border rounded">
                                         <div class="product-image-container" style="padding-bottom: 100%;">
-                                            <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt="dav.me">
+                                            <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt=" Vianney Wait">
                                         </div>
                                         <div class="product-dscr-container">
                                             <div class="product-title">${element.nom}</div>
