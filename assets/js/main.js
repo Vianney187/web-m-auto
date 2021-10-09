@@ -42,7 +42,7 @@
                             dt.forEach(element => {
                                 const divitem = document.createElement('div');
                                 $(divitem).attr({
-                                    class: "col-6 bg-info- px-0 col-lg-2"
+                                    class: "bg-info px-0 col-lg-12 col-12"
                                 }).html(
                                     `
                                 <div class="recommendation-column recommendation-column-first" style="cursor: pointer">
