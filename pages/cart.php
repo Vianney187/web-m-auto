@@ -1,6 +1,6 @@
 <div class="card bg-dark">
     <div class="card-header">
-        <h5 class="text-white"><span class="px-2 fa fa-shopping-cart"></span>Cart</h5>
+        <h5 class="text-primary"><span class="px-2 fa fa-shopping-cart"></span>Cart</h5>
     </div>
     <div class="card-body px-1">
         <ul class="list-group list">
