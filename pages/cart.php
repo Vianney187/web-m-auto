@@ -1,4 +1,4 @@
-<div class="card bg-danger">
+<div class="card bg-dark">
     <div class="card-header">
         <h5 class="text-white"><span class="px-2 fa fa-shopping-cart"></span>Cart</h5>
     </div>
