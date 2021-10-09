@@ -1,6 +1,6 @@
-<div class="w-100 d-none loader-box" style="height: 100vh;">
+<div class="w-100 d-none loader1-box" style="height: 100vh;">
     <div class="col-lg-12 d-flex justify-content-center p-0">
-        <img src="assets/imgs/loader_gif.gif" alt="Loader" width="200" height="200" style="mix-blend-mode: multiply;">
+        <img src="assets/imgs/loader1_gif.gif" alt="Loader1" width="200" height="200" style="mix-blend-mode: multiply;">
     </div>
 </div>
 <div class="w-100 justify-content-center d-flex bg-info- px-0 mt-5">
