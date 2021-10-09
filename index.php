@@ -34,12 +34,6 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="?page=home"><h5>Acceuil</h5> <span class="sr-only">(current)</span></a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
-                    </li> -->
                 </ul>
                 <form class="form-inline my-2 my-lg-0 d-flex justify-content-between">
                     <a href="?page=cart" class="mr-2">
