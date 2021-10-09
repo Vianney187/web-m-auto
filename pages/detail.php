@@ -1,4 +1,4 @@
-<div class="card bg-danger">
+<div class="card bg-dark">
     <div class="card-header">
         <h5 class="text-white">Detail > <span class="item-name text-primary"></span></h5>
     </div>
