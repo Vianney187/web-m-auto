@@ -43,15 +43,6 @@
                                 // product-container border rounded
                                 const divitem = document.createElement('div');
                                 $(divitem).attr({
-<<<<<<< HEAD
-                                    class: "bg-info- px-0 col-lg-12 col-12"
-                                }).html(
-                                    `
-                                <div class="recommendation-column recommendation-column-first" style="cursor: pointer">
-                                    <div class="row">
-                                        <div class="product-image-container" col-3 style="padding-bottom: 100%;">
-                                            <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt="dav.me">
-=======
                                     class: "bg-info px-0 col-lg-12 col-12"
                                 }).html(
                                     `
@@ -59,7 +50,6 @@
                                     <div class="product-container border rounded">
                                         <div class="product-image-container" style="padding-bottom: 100%;">
                                             <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt=" Vianney Wait">
->>>>>>> 6649ddf3828487771fb8d510830e73bc0dcb7d9b
                                         </div>
                                         <div class="product-dscr-container col-9">
                                             <div class="product-title">${element.nom}</div>
@@ -77,7 +67,6 @@
                                 </div>
                                 `
                                 ).on("click", () => {
-
                                     window.localStorage.setItem('current-item', JSON.stringify(element));                                    
                                     window.location.href = (`?page=detail&item=${(JSON.stringify(element))}`);
                                     return false;
