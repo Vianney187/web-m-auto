@@ -1,5 +1,5 @@
 <div class="row products-content">
     <div class="col-lg-12 my-5 py-5 d-flex justify-content-center bg-dark-">
-        <img src="assets/imgs/loader1_gif.gif" alt="Loader1" width="200" style="mix-blend-mode: multiply;">
+        <img src="assets/imgs/loader1_gif.gif" alt="Loader" width="200" style="mix-blend-mode: multiply;">
     </div>
 </div>
